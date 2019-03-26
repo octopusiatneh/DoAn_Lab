@@ -29,6 +29,27 @@ namespace DoAn_Lab.Controllers
             return View();
         }
 
+        public IActionResult IndexGrid()
+        {
+            ViewData["Message"] = "Your grid index.";
+
+            return View();
+        }
+
+        public IActionResult IndexStaggered()
+        {
+            ViewData ["Message"] = "Your staggered index.";
+
+            return View();
+        }
+
+        public IActionResult IndexSlider()
+        {
+            ViewData["Message"] = "Your staggered index.";
+
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
